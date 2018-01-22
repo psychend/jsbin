@@ -424,10 +424,22 @@ var libraries = [
   {
     'url': 'https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.16/vue.js',
     'label': 'Vue.js 1.0.16',
+    'group': 'Vue.js',
   },
   {
     'url': 'https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js',
     'label': 'Vue.js 2.0.3',
+    'group': 'Vue.js',
+  },
+  {
+    'url': [
+      'https://unpkg.com/vue/dist/vue.js',
+      'https://unpkg.com/vuetify/dist/vuetify.js',
+      'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons',
+      'https://unpkg.com/vuetify/dist/vuetify.min.css'
+    ],
+    'label': 'Vuetify latest'
+    'group': 'Vue.js',
   },
   {
     'url': 'http://cdn.ractivejs.org/latest/ractive.js',
